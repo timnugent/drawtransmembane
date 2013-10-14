@@ -1,0 +1,56 @@
+Perl modules for drawing cartoons and schematics of transmembrane proteins
+
+(c) Tim Nugent 2008
+
+Some of these modules are now part of Bio-Graphics:
+
+http://search.cpan.org/~lds/Bio-Graphics-2.36/lib/Bio/Graphics/DrawTransmembrane.pm
+
+For sample images see here:
+
+http://www0.cs.ucl.ac.uk/staff/T.Nugent/code.html
+
+Installation
+------------
+
+Perl GD and SVG modules are required to use these modules. On Ubuntu, these packages can be installed:
+
+libgd-gd2-perl
+libgd-svg-perl
+
+Otherwise use CPAN.
+
+To run
+------
+
+Run each of the test scripts to generate output PNG/SVG files in the output directory. Scripts should be fairly self explanatory. To see full usage instructions, run e.g. 'perldoc lib/DrawHelicalWheel' on each of the .pm files in the lib directory.
+
+Test_DrawHelicalWheel.pl
+------------------------
+
+Use this to draw a wheel representation of an alpha-helix. Useful for spotting amphipathic and pore forming helices. Can output to SVG 
+
+Test_DrawTransmembrane.pl
+-------------------------
+
+Use this to draw and label cartoons of alpha-helical transmembrane proteins.
+
+Test_DrawTransmembrane_Schematic.pl
+-----------------------------------
+
+Use this to draw a schematic showing multiple topologies, construct a Kyte-Doolittle hydropathy plot and to generate a consensus.
+
+Test_DrawTransmembrane_Tmhmm.pl
+-------------------------------
+
+Use this to parse a tmhmm topology prediction output file and generate a cartoon.
+
+Help
+----
+
+Please report bugs and suggestions to:
+
+t.nugent@cs.ucl.ac.uk
+
+
+
