@@ -40,11 +40,6 @@ Test_DrawTransmembrane_Schematic.pl
 
 Use this to draw a schematic showing multiple topologies, construct a Kyte-Doolittle hydropathy plot and to generate a consensus.
 
-Test_DrawTransmembrane_Tmhmm.pl
--------------------------------
-
-Use this to parse a tmhmm topology prediction output file and generate a cartoon.
-
 Help
 ----
 
