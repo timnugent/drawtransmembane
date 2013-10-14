@@ -14,13 +14,13 @@ my $im = DrawHelicalWheel->new(-title=>$title,
                                -sequence=>$sequence,
                                -helices=>\@helices);	
 
-print "Generating PNG image aquaporin.png\n";
+print "Generating PNG image output/aquaporin.png\n";
 open(OUTPUT, ">output/aquaporin.png");
 binmode OUTPUT;
 print OUTPUT $im->png; 
 close OUTPUT;
 
-print "Generating SVG image aquaporin.svg\n";
+print "Generating SVG image output/aquaporin.svg\n";
 open(OUTPUT, ">output/aquaporin.svg");
 binmode OUTPUT;
 print OUTPUT $im->svg; 
